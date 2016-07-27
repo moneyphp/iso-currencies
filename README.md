@@ -6,12 +6,12 @@ moment this packages will be subject to change.
 
 ## Usage
 
-1. Install using composer.
+Install using composer.
 ```sh
 composer install
 ```
 
-2. Update using composer.
+Update currencies using composer.
 ```sh
 composer fetch-update
 ```
