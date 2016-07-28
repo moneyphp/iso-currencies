@@ -1,6 +1,13 @@
 {
     "name": "moneyphp/iso-currencies",
     "description": "Provides up-to-date list of ISO 4217 currencies as provide by the official ISO Maintenance Agency",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frederik Bosch",
+            "email": "f.bosch@genkgo.nl"
+        }
+    ],
     "require": {
         "php": ">=5.5"
     },
