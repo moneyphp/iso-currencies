@@ -4,6 +4,10 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagi-kazar@gmail.com"
+        },
+        {
             "name": "Frederik Bosch",
             "email": "f.bosch@genkgo.nl"
         }
