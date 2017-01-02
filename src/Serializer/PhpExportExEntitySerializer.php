@@ -4,7 +4,7 @@ namespace MoneyPHP\IsoCurrencies\Serializer;
 use MoneyPHP\IsoCurrencies\Country;
 use MoneyPHP\IsoCurrencies\Serializer;
 
-final class PhpExportSerializer implements Serializer
+final class PhpExportExEntitySerializer implements Serializer
 {
     /**
      * @param array|Country[] $countries
@@ -17,7 +17,6 @@ final class PhpExportSerializer implements Serializer
             $serialized[$country->getAlphabeticCode()] = [
                 'alphabeticCode' => $country->getAlphabeticCode(),
                 'currency' => $country->getCurrency(),
-                'entity' => $country->getEntity(),
                 'minorUnit' => $country->getMinorUnit(),
                 'numericCode' => $country->getNumericCode(),
             ];
