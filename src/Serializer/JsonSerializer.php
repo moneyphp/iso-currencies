@@ -4,7 +4,7 @@ namespace MoneyPHP\IsoCurrencies\Serializer;
 use MoneyPHP\IsoCurrencies\Country;
 use MoneyPHP\IsoCurrencies\Serializer;
 
-final class JsonExEntitySerializer implements Serializer
+final class JsonSerializer implements Serializer
 {
     /**
      * @param array|Country[] $countries
