@@ -17,7 +17,6 @@ final class JsonSerializer implements Serializer
             $serialized[$country->getAlphabeticCode()] = [
                 'alphabeticCode' => $country->getAlphabeticCode(),
                 'currency' => $country->getCurrency(),
-                'entity' => $country->getEntity(),
                 'minorUnit' => $country->getMinorUnit(),
                 'numericCode' => $country->getNumericCode(),
             ];
