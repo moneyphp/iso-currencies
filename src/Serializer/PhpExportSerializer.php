@@ -14,6 +14,9 @@ final class PhpExportSerializer implements Serializer
     {
         $serialized = [];
         foreach ($countries as $country) {
+            if (empty($country->getAlphabeticCode())) {
+                continue;
+            }
             $serialized[$country->getAlphabeticCode()] = [
                 'alphabeticCode' => $country->getAlphabeticCode(),
                 'currency' => $country->getCurrency(),

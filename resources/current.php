@@ -48,13 +48,6 @@
     'minorUnit' => 2,
     'numericCode' => 951,
   ),
-  '' => 
-  array (
-    'alphabeticCode' => '',
-    'currency' => 'No universal currency',
-    'minorUnit' => 0,
-    'numericCode' => 0,
-  ),
   'ARS' => 
   array (
     'alphabeticCode' => 'ARS',
