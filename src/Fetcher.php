@@ -8,29 +8,89 @@ namespace MoneyPHP\IsoCurrencies;
 final class Fetcher
 {
     /**
-     * @var
+     * @var string
      */
-    private $location;
+    private $currentLocation;
+
+    /**
+     * @var string
+     */
+    private $historicLocation;
 
     /**
      * @var null|array|Country[]
      */
-    private $countries;
+    private $currentCountries;
 
     /**
-     * @param $location
+     * @var null|array|Country[]
      */
-    public function __construct($location)
+    private $historicCountries;
+
+    /**
+     * @param string $currentLocation
+     * @param string $historicLocation
+     */
+    public function __construct($currentLocation, $historicLocation)
     {
-        $this->location = $location;
+        $this->currentLocation = $currentLocation;
+        $this->historicLocation = $historicLocation;
+    }
+
+    /**
+     * @param string $fileName
+     * @param Serializer $serializer
+     */
+    public function saveCurrentCountriesTo($fileName, Serializer $serializer)
+    {
+        $this->fetch();
+
+        file_put_contents(
+            $fileName,
+            $serializer->serialize($this->currentCountries)
+        );
+    }
+
+    /**
+     * @param string $fileName
+     * @param Serializer $serializer
+     */
+    public function saveHistoricCountriesTo($fileName, Serializer $serializer)
+    {
+        $this->fetch();
+
+        file_put_contents(
+            $fileName,
+            $serializer->serialize($this->historicCountries)
+        );
+    }
+
+    /**
+     * @param string $fileName
+     * @param Serializer $serializer
+     */
+    public function saveAllCountriesTo($fileName, Serializer $serializer)
+    {
+        $this->fetch();
+
+        file_put_contents(
+            $fileName,
+            $serializer->serialize(array_merge($this->historicCountries, $this->currentCountries))
+        );
     }
 
     private function fetch()
     {
-        if ($this->countries === null) {
-            $this->countries = [];
+        $this->fetchCurrentCountries();
+        $this->fetchHistoricCountries();
+    }
 
-            $content = file_get_contents($this->location);
+    private function fetchCurrentCountries()
+    {
+        if ($this->currentCountries === null) {
+            $this->currentCountries = [];
+
+            $content = file_get_contents($this->currentLocation);
             $xml = new \SimpleXMLElement($content);
 
             foreach ($xml->{'CcyTbl'}->{'CcyNtry'} as $countryXml) {
@@ -42,22 +102,30 @@ final class Fetcher
                     (int) $countryXml->{'CcyMnrUnts'}
                 );
 
-                $this->countries[] = $country;
+                $this->currentCountries[] = $country;
             }
         }
     }
 
-    /**
-     * @param $fileName
-     * @param Serializer $serializer
-     */
-    public function saveTo($fileName, Serializer $serializer)
+    private function fetchHistoricCountries()
     {
-        $this->fetch();
+        if ($this->historicCountries === null) {
+            $this->historicCountries = [];
 
-        file_put_contents(
-            $fileName,
-            $serializer->serialize($this->countries)
-        );
+            $content = file_get_contents($this->historicLocation);
+            $xml = new \SimpleXMLElement($content);
+
+            foreach ($xml->{'HstrcCcyTbl'}->{'HstrcCcyNtry'} as $countryXml) {
+                $country = new Country(
+                    (string) $countryXml->{'CtryNm'},
+                    (string) $countryXml->{'CcyNm'},
+                    (string) $countryXml->{'Ccy'},
+                    (int) $countryXml->{'CcyNbr'},
+                    (int) $countryXml->{'CcyMnrUnts'}
+                );
+
+                $this->historicCountries[] = $country;
+            }
+        }
     }
 }
