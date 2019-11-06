@@ -803,6 +803,11 @@ UYI:
     currency: 'Uruguay Peso en Unidades Indexadas (UI)'
     minorUnit: 0
     numericCode: 940
+UYW:
+    alphabeticCode: UYW
+    currency: 'Unidad Previsional'
+    minorUnit: 4
+    numericCode: 927
 UZS:
     alphabeticCode: UZS
     currency: 'Uzbekistan Sum'
@@ -813,11 +818,11 @@ VUV:
     currency: Vatu
     minorUnit: 0
     numericCode: 548
-VEF:
-    alphabeticCode: VEF
-    currency: Bolívar
+VES:
+    alphabeticCode: VES
+    currency: 'Bolívar Soberano'
     minorUnit: 2
-    numericCode: 937
+    numericCode: 928
 VND:
     alphabeticCode: VND
     currency: Dong

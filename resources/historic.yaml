@@ -503,6 +503,11 @@ SRG:
     currency: 'Surinam Guilder'
     minorUnit: 0
     numericCode: 740
+SZL:
+    alphabeticCode: SZL
+    currency: Lilangeni
+    minorUnit: 0
+    numericCode: 748
 CHC:
     alphabeticCode: CHC
     currency: 'WIR Franc (for electronic)'
@@ -580,7 +585,7 @@ VEB:
     numericCode: 862
 VEF:
     alphabeticCode: VEF
-    currency: Bolivar
+    currency: Bolívar
     minorUnit: 0
     numericCode: 937
 VNC:
@@ -597,7 +602,7 @@ YUD:
     alphabeticCode: YUD
     currency: 'New Yugoslavian Dinar'
     minorUnit: 0
-    numericCode: 891
+    numericCode: 890
 YUM:
     alphabeticCode: YUM
     currency: 'New Dinar'

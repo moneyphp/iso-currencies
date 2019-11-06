@@ -706,6 +706,13 @@
     'minorUnit' => 0,
     'numericCode' => 740,
   ),
+  'SZL' => 
+  array (
+    'alphabeticCode' => 'SZL',
+    'currency' => 'Lilangeni',
+    'minorUnit' => 2,
+    'numericCode' => 748,
+  ),
   'CHC' => 
   array (
     'alphabeticCode' => 'CHC',
@@ -815,7 +822,7 @@
   array (
     'alphabeticCode' => 'VEF',
     'currency' => 'Bolívar',
-    'minorUnit' => 2,
+    'minorUnit' => 0,
     'numericCode' => 937,
   ),
   'VNC' => 
@@ -837,7 +844,7 @@
     'alphabeticCode' => 'YUD',
     'currency' => 'New Yugoslavian Dinar',
     'minorUnit' => 0,
-    'numericCode' => 891,
+    'numericCode' => 890,
   ),
   'YUM' => 
   array (
@@ -1854,13 +1861,6 @@
     'minorUnit' => 2,
     'numericCode' => 968,
   ),
-  'SZL' => 
-  array (
-    'alphabeticCode' => 'SZL',
-    'currency' => 'Lilangeni',
-    'minorUnit' => 2,
-    'numericCode' => 748,
-  ),
   'SEK' => 
   array (
     'alphabeticCode' => 'SEK',
@@ -1987,6 +1987,13 @@
     'minorUnit' => 0,
     'numericCode' => 940,
   ),
+  'UYW' => 
+  array (
+    'alphabeticCode' => 'UYW',
+    'currency' => 'Unidad Previsional',
+    'minorUnit' => 4,
+    'numericCode' => 927,
+  ),
   'UZS' => 
   array (
     'alphabeticCode' => 'UZS',
@@ -2000,6 +2007,13 @@
     'currency' => 'Vatu',
     'minorUnit' => 0,
     'numericCode' => 548,
+  ),
+  'VES' => 
+  array (
+    'alphabeticCode' => 'VES',
+    'currency' => 'Bolívar Soberano',
+    'minorUnit' => 2,
+    'numericCode' => 928,
   ),
   'VND' => 
   array (

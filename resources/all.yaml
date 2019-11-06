@@ -503,6 +503,11 @@ SRG:
     currency: 'Surinam Guilder'
     minorUnit: 0
     numericCode: 740
+SZL:
+    alphabeticCode: SZL
+    currency: Lilangeni
+    minorUnit: 2
+    numericCode: 748
 CHC:
     alphabeticCode: CHC
     currency: 'WIR Franc (for electronic)'
@@ -581,7 +586,7 @@ VEB:
 VEF:
     alphabeticCode: VEF
     currency: Bolívar
-    minorUnit: 2
+    minorUnit: 0
     numericCode: 937
 VNC:
     alphabeticCode: VNC
@@ -597,7 +602,7 @@ YUD:
     alphabeticCode: YUD
     currency: 'New Yugoslavian Dinar'
     minorUnit: 0
-    numericCode: 891
+    numericCode: 890
 YUM:
     alphabeticCode: YUM
     currency: 'New Dinar'
@@ -1323,11 +1328,6 @@ SRD:
     currency: 'Surinam Dollar'
     minorUnit: 2
     numericCode: 968
-SZL:
-    alphabeticCode: SZL
-    currency: Lilangeni
-    minorUnit: 2
-    numericCode: 748
 SEK:
     alphabeticCode: SEK
     currency: 'Swedish Krona'
@@ -1418,6 +1418,11 @@ UYI:
     currency: 'Uruguay Peso en Unidades Indexadas (UI)'
     minorUnit: 0
     numericCode: 940
+UYW:
+    alphabeticCode: UYW
+    currency: 'Unidad Previsional'
+    minorUnit: 4
+    numericCode: 927
 UZS:
     alphabeticCode: UZS
     currency: 'Uzbekistan Sum'
@@ -1428,6 +1433,11 @@ VUV:
     currency: Vatu
     minorUnit: 0
     numericCode: 548
+VES:
+    alphabeticCode: VES
+    currency: 'Bolívar Soberano'
+    minorUnit: 2
+    numericCode: 928
 VND:
     alphabeticCode: VND
     currency: Dong

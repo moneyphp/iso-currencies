@@ -1126,6 +1126,13 @@
     'minorUnit' => 0,
     'numericCode' => 940,
   ),
+  'UYW' => 
+  array (
+    'alphabeticCode' => 'UYW',
+    'currency' => 'Unidad Previsional',
+    'minorUnit' => 4,
+    'numericCode' => 927,
+  ),
   'UZS' => 
   array (
     'alphabeticCode' => 'UZS',
@@ -1140,12 +1147,12 @@
     'minorUnit' => 0,
     'numericCode' => 548,
   ),
-  'VEF' => 
+  'VES' => 
   array (
-    'alphabeticCode' => 'VEF',
-    'currency' => 'Bolívar',
+    'alphabeticCode' => 'VES',
+    'currency' => 'Bolívar Soberano',
     'minorUnit' => 2,
-    'numericCode' => 937,
+    'numericCode' => 928,
   ),
   'VND' => 
   array (

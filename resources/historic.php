@@ -706,6 +706,13 @@
     'minorUnit' => 0,
     'numericCode' => 740,
   ),
+  'SZL' => 
+  array (
+    'alphabeticCode' => 'SZL',
+    'currency' => 'Lilangeni',
+    'minorUnit' => 0,
+    'numericCode' => 748,
+  ),
   'CHC' => 
   array (
     'alphabeticCode' => 'CHC',
@@ -814,7 +821,7 @@
   'VEF' => 
   array (
     'alphabeticCode' => 'VEF',
-    'currency' => 'Bolivar',
+    'currency' => 'Bolívar',
     'minorUnit' => 0,
     'numericCode' => 937,
   ),
@@ -837,7 +844,7 @@
     'alphabeticCode' => 'YUD',
     'currency' => 'New Yugoslavian Dinar',
     'minorUnit' => 0,
-    'numericCode' => 891,
+    'numericCode' => 890,
   ),
   'YUM' => 
   array (
