@@ -100,7 +100,7 @@
   'BDT' => 
   array (
     'alphabeticCode' => 'BDT',
-    'currency' => 'Taka',
+    'currency' => 'Bangladeshi Taka',
     'minorUnit' => 2,
     'numericCode' => 50,
   ),
