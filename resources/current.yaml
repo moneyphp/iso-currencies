@@ -278,6 +278,11 @@ ERN:
     currency: Nakfa
     minorUnit: 2
     numericCode: 232
+SZL:
+    alphabeticCode: SZL
+    currency: Lilangeni
+    minorUnit: 2
+    numericCode: 748
 ETB:
     alphabeticCode: ETB
     currency: 'Ethiopian Birr'
@@ -703,11 +708,6 @@ SRD:
     currency: 'Surinam Dollar'
     minorUnit: 2
     numericCode: 968
-SZL:
-    alphabeticCode: SZL
-    currency: Lilangeni
-    minorUnit: 2
-    numericCode: 748
 SEK:
     alphabeticCode: SEK
     currency: 'Swedish Krona'

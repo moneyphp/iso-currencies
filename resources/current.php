@@ -391,6 +391,13 @@
     'minorUnit' => 2,
     'numericCode' => 232,
   ),
+  'SZL' => 
+  array (
+    'alphabeticCode' => 'SZL',
+    'currency' => 'Lilangeni',
+    'minorUnit' => 2,
+    'numericCode' => 748,
+  ),
   'ETB' => 
   array (
     'alphabeticCode' => 'ETB',
@@ -985,13 +992,6 @@
     'currency' => 'Surinam Dollar',
     'minorUnit' => 2,
     'numericCode' => 968,
-  ),
-  'SZL' => 
-  array (
-    'alphabeticCode' => 'SZL',
-    'currency' => 'Lilangeni',
-    'minorUnit' => 2,
-    'numericCode' => 748,
   ),
   'SEK' => 
   array (
