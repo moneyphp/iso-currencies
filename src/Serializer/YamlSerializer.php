@@ -27,6 +27,8 @@ final class YamlSerializer implements Serializer
             ];
         }
 
-        return Yaml::dump($serialized);;
+        \ksort($serialized);
+
+        return Yaml::dump($serialized);
     }
 }

@@ -25,6 +25,8 @@ final class PhpExportSerializer implements Serializer
             ];
         }
 
+        \ksort($serialized);
+
         return '<?php return '.var_export($serialized, true).';';
     }
 }

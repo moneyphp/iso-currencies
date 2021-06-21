@@ -1,33 +1,23 @@
-AFA:
-    alphabeticCode: AFA
-    currency: Afghani
-    minorUnit: 0
-    numericCode: 4
-FIM:
-    alphabeticCode: FIM
-    currency: Markka
-    minorUnit: 0
-    numericCode: 246
-ALK:
-    alphabeticCode: ALK
-    currency: 'Old Lek'
-    minorUnit: 0
-    numericCode: 8
 ADP:
     alphabeticCode: ADP
     currency: 'Andorran Peseta'
     minorUnit: 0
     numericCode: 20
-ESP:
-    alphabeticCode: ESP
-    currency: 'Spanish Peseta'
+AFA:
+    alphabeticCode: AFA
+    currency: Afghani
     minorUnit: 0
-    numericCode: 724
-FRF:
-    alphabeticCode: FRF
-    currency: 'French Franc'
+    numericCode: 4
+ALK:
+    alphabeticCode: ALK
+    currency: 'Old Lek'
     minorUnit: 0
-    numericCode: 250
+    numericCode: 8
+ANG:
+    alphabeticCode: ANG
+    currency: 'Netherlands Antillean Guilder'
+    minorUnit: 0
+    numericCode: 532
 AOK:
     alphabeticCode: AOK
     currency: Kwanza
@@ -58,11 +48,6 @@ ARY:
     currency: Peso
     minorUnit: 0
     numericCode: 32
-RUR:
-    alphabeticCode: RUR
-    currency: 'Russian Ruble'
-    minorUnit: 0
-    numericCode: 810
 ATS:
     alphabeticCode: ATS
     currency: Schilling
@@ -78,16 +63,11 @@ AZM:
     currency: 'Azerbaijanian Manat'
     minorUnit: 0
     numericCode: 31
-BYB:
-    alphabeticCode: BYB
-    currency: 'Belarusian Ruble'
+BAD:
+    alphabeticCode: BAD
+    currency: Dinar
     minorUnit: 0
-    numericCode: 112
-BYR:
-    alphabeticCode: BYR
-    currency: 'Belarusian Ruble'
-    minorUnit: 0
-    numericCode: 974
+    numericCode: 70
 BEC:
     alphabeticCode: BEC
     currency: 'Convertible Franc'
@@ -103,16 +83,26 @@ BEL:
     currency: 'Financial Franc'
     minorUnit: 0
     numericCode: 992
+BGJ:
+    alphabeticCode: BGJ
+    currency: 'Lev A/52'
+    minorUnit: 0
+    numericCode: 100
+BGK:
+    alphabeticCode: BGK
+    currency: 'Lev A/62'
+    minorUnit: 0
+    numericCode: 100
+BGL:
+    alphabeticCode: BGL
+    currency: Lev
+    minorUnit: 0
+    numericCode: 100
 BOP:
     alphabeticCode: BOP
     currency: 'Peso boliviano'
     minorUnit: 0
     numericCode: 68
-BAD:
-    alphabeticCode: BAD
-    currency: Dinar
-    minorUnit: 0
-    numericCode: 70
 BRB:
     alphabeticCode: BRB
     currency: Cruzeiro
@@ -138,41 +128,31 @@ BRR:
     currency: 'Cruzeiro Real'
     minorUnit: 0
     numericCode: 987
-BGJ:
-    alphabeticCode: BGJ
-    currency: 'Lev A/52'
-    minorUnit: 0
-    numericCode: 100
-BGK:
-    alphabeticCode: BGK
-    currency: 'Lev A/62'
-    minorUnit: 0
-    numericCode: 100
-BGL:
-    alphabeticCode: BGL
-    currency: Lev
-    minorUnit: 0
-    numericCode: 100
 BUK:
     alphabeticCode: BUK
     currency: Kyat
     minorUnit: 0
     numericCode: 104
-HRD:
-    alphabeticCode: HRD
-    currency: 'Croatian Dinar'
+BYB:
+    alphabeticCode: BYB
+    currency: 'Belarusian Ruble'
     minorUnit: 0
-    numericCode: 191
-HRK:
-    alphabeticCode: HRK
-    currency: 'Croatian Kuna'
+    numericCode: 112
+BYR:
+    alphabeticCode: BYR
+    currency: 'Belarusian Ruble'
     minorUnit: 0
-    numericCode: 191
-CYP:
-    alphabeticCode: CYP
-    currency: 'Cyprus Pound'
+    numericCode: 974
+CHC:
+    alphabeticCode: CHC
+    currency: 'WIR Franc (for electronic)'
     minorUnit: 0
-    numericCode: 196
+    numericCode: 948
+CSD:
+    alphabeticCode: CSD
+    currency: 'Serbian Dinar'
+    minorUnit: 0
+    numericCode: 891
 CSJ:
     alphabeticCode: CSJ
     currency: 'Krona A/53'
@@ -183,36 +163,11 @@ CSK:
     currency: Koruna
     minorUnit: 0
     numericCode: 200
-ECS:
-    alphabeticCode: ECS
-    currency: Sucre
+CYP:
+    alphabeticCode: CYP
+    currency: 'Cyprus Pound'
     minorUnit: 0
-    numericCode: 218
-ECV:
-    alphabeticCode: ECV
-    currency: 'Unidad de Valor Constante (UVC)'
-    minorUnit: 0
-    numericCode: 983
-GQE:
-    alphabeticCode: GQE
-    currency: Ekwele
-    minorUnit: 0
-    numericCode: 226
-EEK:
-    alphabeticCode: EEK
-    currency: Kroon
-    minorUnit: 0
-    numericCode: 233
-XEU:
-    alphabeticCode: XEU
-    currency: 'European Currency Unit (E.C.U)'
-    minorUnit: 0
-    numericCode: 954
-GEK:
-    alphabeticCode: GEK
-    currency: 'Georgian Coupon'
-    minorUnit: 0
-    numericCode: 268
+    numericCode: 196
 DDM:
     alphabeticCode: DDM
     currency: 'Mark der DDR'
@@ -223,6 +178,56 @@ DEM:
     currency: 'Deutsche Mark'
     minorUnit: 0
     numericCode: 276
+ECS:
+    alphabeticCode: ECS
+    currency: Sucre
+    minorUnit: 0
+    numericCode: 218
+ECV:
+    alphabeticCode: ECV
+    currency: 'Unidad de Valor Constante (UVC)'
+    minorUnit: 0
+    numericCode: 983
+EEK:
+    alphabeticCode: EEK
+    currency: Kroon
+    minorUnit: 0
+    numericCode: 233
+ESA:
+    alphabeticCode: ESA
+    currency: 'Spanish Peseta'
+    minorUnit: 0
+    numericCode: 996
+ESB:
+    alphabeticCode: ESB
+    currency: '"A" Account (convertible Peseta Account)'
+    minorUnit: 0
+    numericCode: 995
+ESP:
+    alphabeticCode: ESP
+    currency: 'Spanish Peseta'
+    minorUnit: 0
+    numericCode: 724
+EUR:
+    alphabeticCode: EUR
+    currency: Euro
+    minorUnit: 0
+    numericCode: 978
+FIM:
+    alphabeticCode: FIM
+    currency: Markka
+    minorUnit: 0
+    numericCode: 246
+FRF:
+    alphabeticCode: FRF
+    currency: 'French Franc'
+    minorUnit: 0
+    numericCode: 250
+GEK:
+    alphabeticCode: GEK
+    currency: 'Georgian Coupon'
+    minorUnit: 0
+    numericCode: 268
 GHC:
     alphabeticCode: GHC
     currency: Cedi
@@ -233,11 +238,6 @@ GHP:
     currency: 'Ghana Cedi'
     minorUnit: 0
     numericCode: 939
-GRD:
-    alphabeticCode: GRD
-    currency: Drachma
-    minorUnit: 0
-    numericCode: 300
 GNE:
     alphabeticCode: GNE
     currency: Syli
@@ -248,6 +248,16 @@ GNS:
     currency: Syli
     minorUnit: 0
     numericCode: 324
+GQE:
+    alphabeticCode: GQE
+    currency: Ekwele
+    minorUnit: 0
+    numericCode: 226
+GRD:
+    alphabeticCode: GRD
+    currency: Drachma
+    minorUnit: 0
+    numericCode: 300
 GWE:
     alphabeticCode: GWE
     currency: 'Guinea Escudo'
@@ -258,16 +268,21 @@ GWP:
     currency: 'Guinea-Bissau Peso'
     minorUnit: 0
     numericCode: 624
-ITL:
-    alphabeticCode: ITL
-    currency: 'Italian Lira'
+HRD:
+    alphabeticCode: HRD
+    currency: 'Croatian Dinar'
     minorUnit: 0
-    numericCode: 380
-ISJ:
-    alphabeticCode: ISJ
-    currency: 'Old Krona'
+    numericCode: 191
+HRK:
+    alphabeticCode: HRK
+    currency: 'Croatian Kuna'
     minorUnit: 0
-    numericCode: 352
+    numericCode: 191
+IDR:
+    alphabeticCode: IDR
+    currency: Rupiah
+    minorUnit: 0
+    numericCode: 360
 IEP:
     alphabeticCode: IEP
     currency: 'Irish Pound'
@@ -283,31 +298,26 @@ ILR:
     currency: 'Old Shekel'
     minorUnit: 0
     numericCode: 376
+ISJ:
+    alphabeticCode: ISJ
+    currency: 'Old Krona'
+    minorUnit: 0
+    numericCode: 352
+ITL:
+    alphabeticCode: ITL
+    currency: 'Italian Lira'
+    minorUnit: 0
+    numericCode: 380
 LAJ:
     alphabeticCode: LAJ
     currency: 'Pathet Lao Kip'
     minorUnit: 0
     numericCode: 418
-LVL:
-    alphabeticCode: LVL
-    currency: 'Latvian Lats'
-    minorUnit: 0
-    numericCode: 428
-LVR:
-    alphabeticCode: LVR
-    currency: 'Latvian Ruble'
-    minorUnit: 0
-    numericCode: 428
 LSM:
     alphabeticCode: LSM
     currency: Loti
     minorUnit: 0
     numericCode: 426
-ZAL:
-    alphabeticCode: ZAL
-    currency: 'Financial Rand'
-    minorUnit: 0
-    numericCode: 991
 LTL:
     alphabeticCode: LTL
     currency: 'Lithuanian Litas'
@@ -333,26 +343,31 @@ LUL:
     currency: 'Luxembourg Financial Franc'
     minorUnit: 0
     numericCode: 988
+LVL:
+    alphabeticCode: LVL
+    currency: 'Latvian Lats'
+    minorUnit: 0
+    numericCode: 428
+LVR:
+    alphabeticCode: LVR
+    currency: 'Latvian Ruble'
+    minorUnit: 0
+    numericCode: 428
 MGF:
     alphabeticCode: MGF
     currency: 'Malagasy Franc'
     minorUnit: 0
     numericCode: 450
-MWK:
-    alphabeticCode: MWK
-    currency: Kwacha
-    minorUnit: 0
-    numericCode: 454
-MVQ:
-    alphabeticCode: MVQ
-    currency: 'Maldive Rupee'
-    minorUnit: 0
-    numericCode: 462
 MLF:
     alphabeticCode: MLF
     currency: 'Mali Franc'
     minorUnit: 0
     numericCode: 466
+MRO:
+    alphabeticCode: MRO
+    currency: Ouguiya
+    minorUnit: 0
+    numericCode: 478
 MTL:
     alphabeticCode: MTL
     currency: 'Maltese Lira'
@@ -363,11 +378,16 @@ MTP:
     currency: 'Maltese Pound'
     minorUnit: 0
     numericCode: 470
-MRO:
-    alphabeticCode: MRO
-    currency: Ouguiya
+MVQ:
+    alphabeticCode: MVQ
+    currency: 'Maldive Rupee'
     minorUnit: 0
-    numericCode: 478
+    numericCode: 462
+MWK:
+    alphabeticCode: MWK
+    currency: Kwacha
+    minorUnit: 0
+    numericCode: 454
 MXP:
     alphabeticCode: MXP
     currency: 'Mexican Peso'
@@ -383,21 +403,16 @@ MZM:
     currency: 'Mozambique Metical'
     minorUnit: 0
     numericCode: 508
-NLG:
-    alphabeticCode: NLG
-    currency: 'Netherlands Guilder'
-    minorUnit: 0
-    numericCode: 528
-ANG:
-    alphabeticCode: ANG
-    currency: 'Netherlands Antillean Guilder'
-    minorUnit: 0
-    numericCode: 532
 NIC:
     alphabeticCode: NIC
     currency: Cordoba
     minorUnit: 0
     numericCode: 558
+NLG:
+    alphabeticCode: NLG
+    currency: 'Netherlands Guilder'
+    minorUnit: 0
+    numericCode: 528
 PEH:
     alphabeticCode: PEH
     currency: Sol
@@ -428,6 +443,11 @@ PTE:
     currency: 'Portuguese Escudo'
     minorUnit: 0
     numericCode: 620
+RHD:
+    alphabeticCode: RHD
+    currency: 'Rhodesian Dollar'
+    minorUnit: 0
+    numericCode: 716
 ROK:
     alphabeticCode: ROK
     currency: 'Leu A/52'
@@ -443,86 +463,66 @@ RON:
     currency: 'New Romanian Leu '
     minorUnit: 0
     numericCode: 946
-STD:
-    alphabeticCode: STD
-    currency: Dobra
+RUR:
+    alphabeticCode: RUR
+    currency: 'Russian Ruble'
     minorUnit: 0
-    numericCode: 678
-CSD:
-    alphabeticCode: CSD
-    currency: 'Serbian Dinar'
-    minorUnit: 0
-    numericCode: 891
-EUR:
-    alphabeticCode: EUR
-    currency: Euro
-    minorUnit: 0
-    numericCode: 978
-SKK:
-    alphabeticCode: SKK
-    currency: 'Slovak Koruna'
-    minorUnit: 0
-    numericCode: 703
-SIT:
-    alphabeticCode: SIT
-    currency: Tolar
-    minorUnit: 0
-    numericCode: 705
-SDG:
-    alphabeticCode: SDG
-    currency: 'Sudanese Pound'
-    minorUnit: 0
-    numericCode: 938
-RHD:
-    alphabeticCode: RHD
-    currency: 'Rhodesian Dollar'
-    minorUnit: 0
-    numericCode: 716
-ESA:
-    alphabeticCode: ESA
-    currency: 'Spanish Peseta'
-    minorUnit: 0
-    numericCode: 996
-ESB:
-    alphabeticCode: ESB
-    currency: '"A" Account (convertible Peseta Account)'
-    minorUnit: 0
-    numericCode: 995
+    numericCode: 810
 SDD:
     alphabeticCode: SDD
     currency: 'Sudanese Dinar'
     minorUnit: 0
     numericCode: 736
+SDG:
+    alphabeticCode: SDG
+    currency: 'Sudanese Pound'
+    minorUnit: 0
+    numericCode: 938
 SDP:
     alphabeticCode: SDP
     currency: 'Sudanese Pound'
     minorUnit: 0
     numericCode: 736
+SIT:
+    alphabeticCode: SIT
+    currency: Tolar
+    minorUnit: 0
+    numericCode: 705
+SKK:
+    alphabeticCode: SKK
+    currency: 'Slovak Koruna'
+    minorUnit: 0
+    numericCode: 703
 SRG:
     alphabeticCode: SRG
     currency: 'Surinam Guilder'
     minorUnit: 0
     numericCode: 740
+STD:
+    alphabeticCode: STD
+    currency: Dobra
+    minorUnit: 0
+    numericCode: 678
+SUR:
+    alphabeticCode: SUR
+    currency: Rouble
+    minorUnit: 0
+    numericCode: 810
 SZL:
     alphabeticCode: SZL
     currency: Lilangeni
     minorUnit: 0
     numericCode: 748
-CHC:
-    alphabeticCode: CHC
-    currency: 'WIR Franc (for electronic)'
-    minorUnit: 0
-    numericCode: 948
 TJR:
     alphabeticCode: TJR
     currency: 'Tajik Ruble'
     minorUnit: 0
     numericCode: 762
-IDR:
-    alphabeticCode: IDR
-    currency: Rupiah
+TMM:
+    alphabeticCode: TMM
+    currency: 'Turkmenistan Manat'
     minorUnit: 0
-    numericCode: 360
+    numericCode: 795
 TPE:
     alphabeticCode: TPE
     currency: 'Timor Escudo'
@@ -538,11 +538,11 @@ TRY:
     currency: 'New Turkish Lira'
     minorUnit: 0
     numericCode: 949
-TMM:
-    alphabeticCode: TMM
-    currency: 'Turkmenistan Manat'
+UAK:
+    alphabeticCode: UAK
+    currency: Karbovanet
     minorUnit: 0
-    numericCode: 795
+    numericCode: 804
 UGS:
     alphabeticCode: UGS
     currency: 'Uganda Shilling'
@@ -553,16 +553,6 @@ UGW:
     currency: 'Old Shilling'
     minorUnit: 0
     numericCode: 800
-UAK:
-    alphabeticCode: UAK
-    currency: Karbovanet
-    minorUnit: 0
-    numericCode: 804
-SUR:
-    alphabeticCode: SUR
-    currency: Rouble
-    minorUnit: 0
-    numericCode: 810
 USS:
     alphabeticCode: USS
     currency: 'US Dollar (Same day)'
@@ -593,6 +583,26 @@ VNC:
     currency: 'Old Dong'
     minorUnit: 0
     numericCode: 704
+XEU:
+    alphabeticCode: XEU
+    currency: 'European Currency Unit (E.C.U)'
+    minorUnit: 0
+    numericCode: 954
+XFO:
+    alphabeticCode: XFO
+    currency: Gold-Franc
+    minorUnit: 0
+    numericCode: 0
+XFU:
+    alphabeticCode: XFU
+    currency: UIC-Franc
+    minorUnit: 0
+    numericCode: 0
+XRE:
+    alphabeticCode: XRE
+    currency: 'RINET Funds Code'
+    minorUnit: 0
+    numericCode: 0
 YDD:
     alphabeticCode: YDD
     currency: 'Yemeni Dinar'
@@ -613,6 +623,16 @@ YUN:
     currency: 'Yugoslavian Dinar'
     minorUnit: 0
     numericCode: 890
+ZAL:
+    alphabeticCode: ZAL
+    currency: 'Financial Rand'
+    minorUnit: 0
+    numericCode: 991
+ZMK:
+    alphabeticCode: ZMK
+    currency: 'Zambian Kwacha'
+    minorUnit: 0
+    numericCode: 894
 ZRN:
     alphabeticCode: ZRN
     currency: 'New Zaire'
@@ -623,11 +643,6 @@ ZRZ:
     currency: Zaire
     minorUnit: 0
     numericCode: 180
-ZMK:
-    alphabeticCode: ZMK
-    currency: 'Zambian Kwacha'
-    minorUnit: 0
-    numericCode: 894
 ZWC:
     alphabeticCode: ZWC
     currency: 'Rhodesian Dollar'
@@ -648,18 +663,3 @@ ZWR:
     currency: 'Zimbabwe Dollar'
     minorUnit: 0
     numericCode: 935
-XFO:
-    alphabeticCode: XFO
-    currency: Gold-Franc
-    minorUnit: 0
-    numericCode: 0
-XRE:
-    alphabeticCode: XRE
-    currency: 'RINET Funds Code'
-    minorUnit: 0
-    numericCode: 0
-XFU:
-    alphabeticCode: XFU
-    currency: UIC-Franc
-    minorUnit: 0
-    numericCode: 0

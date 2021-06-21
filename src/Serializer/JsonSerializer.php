@@ -25,6 +25,8 @@ final class JsonSerializer implements Serializer
             ];
         }
 
+        \ksort($serialized);
+
         return json_encode($serialized);
     }
 }

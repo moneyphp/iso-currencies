@@ -1,17 +1,17 @@
 <?php return array (
+  'ADP' => 
+  array (
+    'alphabeticCode' => 'ADP',
+    'currency' => 'Andorran Peseta',
+    'minorUnit' => 0,
+    'numericCode' => 20,
+  ),
   'AFA' => 
   array (
     'alphabeticCode' => 'AFA',
     'currency' => 'Afghani',
     'minorUnit' => 0,
     'numericCode' => 4,
-  ),
-  'FIM' => 
-  array (
-    'alphabeticCode' => 'FIM',
-    'currency' => 'Markka',
-    'minorUnit' => 0,
-    'numericCode' => 246,
   ),
   'ALK' => 
   array (
@@ -20,26 +20,12 @@
     'minorUnit' => 0,
     'numericCode' => 8,
   ),
-  'ADP' => 
+  'ANG' => 
   array (
-    'alphabeticCode' => 'ADP',
-    'currency' => 'Andorran Peseta',
+    'alphabeticCode' => 'ANG',
+    'currency' => 'Netherlands Antillean Guilder',
     'minorUnit' => 0,
-    'numericCode' => 20,
-  ),
-  'ESP' => 
-  array (
-    'alphabeticCode' => 'ESP',
-    'currency' => 'Spanish Peseta',
-    'minorUnit' => 0,
-    'numericCode' => 724,
-  ),
-  'FRF' => 
-  array (
-    'alphabeticCode' => 'FRF',
-    'currency' => 'French Franc',
-    'minorUnit' => 0,
-    'numericCode' => 250,
+    'numericCode' => 532,
   ),
   'AOK' => 
   array (
@@ -83,13 +69,6 @@
     'minorUnit' => 0,
     'numericCode' => 32,
   ),
-  'RUR' => 
-  array (
-    'alphabeticCode' => 'RUR',
-    'currency' => 'Russian Ruble',
-    'minorUnit' => 0,
-    'numericCode' => 810,
-  ),
   'ATS' => 
   array (
     'alphabeticCode' => 'ATS',
@@ -111,19 +90,12 @@
     'minorUnit' => 0,
     'numericCode' => 31,
   ),
-  'BYB' => 
+  'BAD' => 
   array (
-    'alphabeticCode' => 'BYB',
-    'currency' => 'Belarusian Ruble',
+    'alphabeticCode' => 'BAD',
+    'currency' => 'Dinar',
     'minorUnit' => 0,
-    'numericCode' => 112,
-  ),
-  'BYR' => 
-  array (
-    'alphabeticCode' => 'BYR',
-    'currency' => 'Belarusian Ruble',
-    'minorUnit' => 0,
-    'numericCode' => 974,
+    'numericCode' => 70,
   ),
   'BEC' => 
   array (
@@ -146,19 +118,33 @@
     'minorUnit' => 0,
     'numericCode' => 992,
   ),
+  'BGJ' => 
+  array (
+    'alphabeticCode' => 'BGJ',
+    'currency' => 'Lev A/52',
+    'minorUnit' => 0,
+    'numericCode' => 100,
+  ),
+  'BGK' => 
+  array (
+    'alphabeticCode' => 'BGK',
+    'currency' => 'Lev A/62',
+    'minorUnit' => 0,
+    'numericCode' => 100,
+  ),
+  'BGL' => 
+  array (
+    'alphabeticCode' => 'BGL',
+    'currency' => 'Lev',
+    'minorUnit' => 0,
+    'numericCode' => 100,
+  ),
   'BOP' => 
   array (
     'alphabeticCode' => 'BOP',
     'currency' => 'Peso boliviano',
     'minorUnit' => 0,
     'numericCode' => 68,
-  ),
-  'BAD' => 
-  array (
-    'alphabeticCode' => 'BAD',
-    'currency' => 'Dinar',
-    'minorUnit' => 0,
-    'numericCode' => 70,
   ),
   'BRB' => 
   array (
@@ -195,27 +181,6 @@
     'minorUnit' => 0,
     'numericCode' => 987,
   ),
-  'BGJ' => 
-  array (
-    'alphabeticCode' => 'BGJ',
-    'currency' => 'Lev A/52',
-    'minorUnit' => 0,
-    'numericCode' => 100,
-  ),
-  'BGK' => 
-  array (
-    'alphabeticCode' => 'BGK',
-    'currency' => 'Lev A/62',
-    'minorUnit' => 0,
-    'numericCode' => 100,
-  ),
-  'BGL' => 
-  array (
-    'alphabeticCode' => 'BGL',
-    'currency' => 'Lev',
-    'minorUnit' => 0,
-    'numericCode' => 100,
-  ),
   'BUK' => 
   array (
     'alphabeticCode' => 'BUK',
@@ -223,26 +188,33 @@
     'minorUnit' => 0,
     'numericCode' => 104,
   ),
-  'HRD' => 
+  'BYB' => 
   array (
-    'alphabeticCode' => 'HRD',
-    'currency' => 'Croatian Dinar',
+    'alphabeticCode' => 'BYB',
+    'currency' => 'Belarusian Ruble',
     'minorUnit' => 0,
-    'numericCode' => 191,
+    'numericCode' => 112,
   ),
-  'HRK' => 
+  'BYR' => 
   array (
-    'alphabeticCode' => 'HRK',
-    'currency' => 'Croatian Kuna',
+    'alphabeticCode' => 'BYR',
+    'currency' => 'Belarusian Ruble',
     'minorUnit' => 0,
-    'numericCode' => 191,
+    'numericCode' => 974,
   ),
-  'CYP' => 
+  'CHC' => 
   array (
-    'alphabeticCode' => 'CYP',
-    'currency' => 'Cyprus Pound',
+    'alphabeticCode' => 'CHC',
+    'currency' => 'WIR Franc (for electronic)',
     'minorUnit' => 0,
-    'numericCode' => 196,
+    'numericCode' => 948,
+  ),
+  'CSD' => 
+  array (
+    'alphabeticCode' => 'CSD',
+    'currency' => 'Serbian Dinar',
+    'minorUnit' => 0,
+    'numericCode' => 891,
   ),
   'CSJ' => 
   array (
@@ -258,47 +230,12 @@
     'minorUnit' => 0,
     'numericCode' => 200,
   ),
-  'ECS' => 
+  'CYP' => 
   array (
-    'alphabeticCode' => 'ECS',
-    'currency' => 'Sucre',
+    'alphabeticCode' => 'CYP',
+    'currency' => 'Cyprus Pound',
     'minorUnit' => 0,
-    'numericCode' => 218,
-  ),
-  'ECV' => 
-  array (
-    'alphabeticCode' => 'ECV',
-    'currency' => 'Unidad de Valor Constante (UVC)',
-    'minorUnit' => 0,
-    'numericCode' => 983,
-  ),
-  'GQE' => 
-  array (
-    'alphabeticCode' => 'GQE',
-    'currency' => 'Ekwele',
-    'minorUnit' => 0,
-    'numericCode' => 226,
-  ),
-  'EEK' => 
-  array (
-    'alphabeticCode' => 'EEK',
-    'currency' => 'Kroon',
-    'minorUnit' => 0,
-    'numericCode' => 233,
-  ),
-  'XEU' => 
-  array (
-    'alphabeticCode' => 'XEU',
-    'currency' => 'European Currency Unit (E.C.U)',
-    'minorUnit' => 0,
-    'numericCode' => 954,
-  ),
-  'GEK' => 
-  array (
-    'alphabeticCode' => 'GEK',
-    'currency' => 'Georgian Coupon',
-    'minorUnit' => 0,
-    'numericCode' => 268,
+    'numericCode' => 196,
   ),
   'DDM' => 
   array (
@@ -314,6 +251,76 @@
     'minorUnit' => 0,
     'numericCode' => 276,
   ),
+  'ECS' => 
+  array (
+    'alphabeticCode' => 'ECS',
+    'currency' => 'Sucre',
+    'minorUnit' => 0,
+    'numericCode' => 218,
+  ),
+  'ECV' => 
+  array (
+    'alphabeticCode' => 'ECV',
+    'currency' => 'Unidad de Valor Constante (UVC)',
+    'minorUnit' => 0,
+    'numericCode' => 983,
+  ),
+  'EEK' => 
+  array (
+    'alphabeticCode' => 'EEK',
+    'currency' => 'Kroon',
+    'minorUnit' => 0,
+    'numericCode' => 233,
+  ),
+  'ESA' => 
+  array (
+    'alphabeticCode' => 'ESA',
+    'currency' => 'Spanish Peseta',
+    'minorUnit' => 0,
+    'numericCode' => 996,
+  ),
+  'ESB' => 
+  array (
+    'alphabeticCode' => 'ESB',
+    'currency' => '"A" Account (convertible Peseta Account)',
+    'minorUnit' => 0,
+    'numericCode' => 995,
+  ),
+  'ESP' => 
+  array (
+    'alphabeticCode' => 'ESP',
+    'currency' => 'Spanish Peseta',
+    'minorUnit' => 0,
+    'numericCode' => 724,
+  ),
+  'EUR' => 
+  array (
+    'alphabeticCode' => 'EUR',
+    'currency' => 'Euro',
+    'minorUnit' => 0,
+    'numericCode' => 978,
+  ),
+  'FIM' => 
+  array (
+    'alphabeticCode' => 'FIM',
+    'currency' => 'Markka',
+    'minorUnit' => 0,
+    'numericCode' => 246,
+  ),
+  'FRF' => 
+  array (
+    'alphabeticCode' => 'FRF',
+    'currency' => 'French Franc',
+    'minorUnit' => 0,
+    'numericCode' => 250,
+  ),
+  'GEK' => 
+  array (
+    'alphabeticCode' => 'GEK',
+    'currency' => 'Georgian Coupon',
+    'minorUnit' => 0,
+    'numericCode' => 268,
+  ),
   'GHC' => 
   array (
     'alphabeticCode' => 'GHC',
@@ -327,13 +334,6 @@
     'currency' => 'Ghana Cedi',
     'minorUnit' => 0,
     'numericCode' => 939,
-  ),
-  'GRD' => 
-  array (
-    'alphabeticCode' => 'GRD',
-    'currency' => 'Drachma',
-    'minorUnit' => 0,
-    'numericCode' => 300,
   ),
   'GNE' => 
   array (
@@ -349,6 +349,20 @@
     'minorUnit' => 0,
     'numericCode' => 324,
   ),
+  'GQE' => 
+  array (
+    'alphabeticCode' => 'GQE',
+    'currency' => 'Ekwele',
+    'minorUnit' => 0,
+    'numericCode' => 226,
+  ),
+  'GRD' => 
+  array (
+    'alphabeticCode' => 'GRD',
+    'currency' => 'Drachma',
+    'minorUnit' => 0,
+    'numericCode' => 300,
+  ),
   'GWE' => 
   array (
     'alphabeticCode' => 'GWE',
@@ -363,19 +377,26 @@
     'minorUnit' => 0,
     'numericCode' => 624,
   ),
-  'ITL' => 
+  'HRD' => 
   array (
-    'alphabeticCode' => 'ITL',
-    'currency' => 'Italian Lira',
+    'alphabeticCode' => 'HRD',
+    'currency' => 'Croatian Dinar',
     'minorUnit' => 0,
-    'numericCode' => 380,
+    'numericCode' => 191,
   ),
-  'ISJ' => 
+  'HRK' => 
   array (
-    'alphabeticCode' => 'ISJ',
-    'currency' => 'Old Krona',
+    'alphabeticCode' => 'HRK',
+    'currency' => 'Croatian Kuna',
     'minorUnit' => 0,
-    'numericCode' => 352,
+    'numericCode' => 191,
+  ),
+  'IDR' => 
+  array (
+    'alphabeticCode' => 'IDR',
+    'currency' => 'Rupiah',
+    'minorUnit' => 0,
+    'numericCode' => 360,
   ),
   'IEP' => 
   array (
@@ -398,6 +419,20 @@
     'minorUnit' => 0,
     'numericCode' => 376,
   ),
+  'ISJ' => 
+  array (
+    'alphabeticCode' => 'ISJ',
+    'currency' => 'Old Krona',
+    'minorUnit' => 0,
+    'numericCode' => 352,
+  ),
+  'ITL' => 
+  array (
+    'alphabeticCode' => 'ITL',
+    'currency' => 'Italian Lira',
+    'minorUnit' => 0,
+    'numericCode' => 380,
+  ),
   'LAJ' => 
   array (
     'alphabeticCode' => 'LAJ',
@@ -405,33 +440,12 @@
     'minorUnit' => 0,
     'numericCode' => 418,
   ),
-  'LVL' => 
-  array (
-    'alphabeticCode' => 'LVL',
-    'currency' => 'Latvian Lats',
-    'minorUnit' => 0,
-    'numericCode' => 428,
-  ),
-  'LVR' => 
-  array (
-    'alphabeticCode' => 'LVR',
-    'currency' => 'Latvian Ruble',
-    'minorUnit' => 0,
-    'numericCode' => 428,
-  ),
   'LSM' => 
   array (
     'alphabeticCode' => 'LSM',
     'currency' => 'Loti',
     'minorUnit' => 0,
     'numericCode' => 426,
-  ),
-  'ZAL' => 
-  array (
-    'alphabeticCode' => 'ZAL',
-    'currency' => 'Financial Rand',
-    'minorUnit' => 0,
-    'numericCode' => 991,
   ),
   'LTL' => 
   array (
@@ -468,6 +482,20 @@
     'minorUnit' => 0,
     'numericCode' => 988,
   ),
+  'LVL' => 
+  array (
+    'alphabeticCode' => 'LVL',
+    'currency' => 'Latvian Lats',
+    'minorUnit' => 0,
+    'numericCode' => 428,
+  ),
+  'LVR' => 
+  array (
+    'alphabeticCode' => 'LVR',
+    'currency' => 'Latvian Ruble',
+    'minorUnit' => 0,
+    'numericCode' => 428,
+  ),
   'MGF' => 
   array (
     'alphabeticCode' => 'MGF',
@@ -475,26 +503,19 @@
     'minorUnit' => 0,
     'numericCode' => 450,
   ),
-  'MWK' => 
-  array (
-    'alphabeticCode' => 'MWK',
-    'currency' => 'Kwacha',
-    'minorUnit' => 0,
-    'numericCode' => 454,
-  ),
-  'MVQ' => 
-  array (
-    'alphabeticCode' => 'MVQ',
-    'currency' => 'Maldive Rupee',
-    'minorUnit' => 0,
-    'numericCode' => 462,
-  ),
   'MLF' => 
   array (
     'alphabeticCode' => 'MLF',
     'currency' => 'Mali Franc',
     'minorUnit' => 0,
     'numericCode' => 466,
+  ),
+  'MRO' => 
+  array (
+    'alphabeticCode' => 'MRO',
+    'currency' => 'Ouguiya',
+    'minorUnit' => 0,
+    'numericCode' => 478,
   ),
   'MTL' => 
   array (
@@ -510,12 +531,19 @@
     'minorUnit' => 0,
     'numericCode' => 470,
   ),
-  'MRO' => 
+  'MVQ' => 
   array (
-    'alphabeticCode' => 'MRO',
-    'currency' => 'Ouguiya',
+    'alphabeticCode' => 'MVQ',
+    'currency' => 'Maldive Rupee',
     'minorUnit' => 0,
-    'numericCode' => 478,
+    'numericCode' => 462,
+  ),
+  'MWK' => 
+  array (
+    'alphabeticCode' => 'MWK',
+    'currency' => 'Kwacha',
+    'minorUnit' => 0,
+    'numericCode' => 454,
   ),
   'MXP' => 
   array (
@@ -538,26 +566,19 @@
     'minorUnit' => 0,
     'numericCode' => 508,
   ),
-  'NLG' => 
-  array (
-    'alphabeticCode' => 'NLG',
-    'currency' => 'Netherlands Guilder',
-    'minorUnit' => 0,
-    'numericCode' => 528,
-  ),
-  'ANG' => 
-  array (
-    'alphabeticCode' => 'ANG',
-    'currency' => 'Netherlands Antillean Guilder',
-    'minorUnit' => 0,
-    'numericCode' => 532,
-  ),
   'NIC' => 
   array (
     'alphabeticCode' => 'NIC',
     'currency' => 'Cordoba',
     'minorUnit' => 0,
     'numericCode' => 558,
+  ),
+  'NLG' => 
+  array (
+    'alphabeticCode' => 'NLG',
+    'currency' => 'Netherlands Guilder',
+    'minorUnit' => 0,
+    'numericCode' => 528,
   ),
   'PEH' => 
   array (
@@ -601,6 +622,13 @@
     'minorUnit' => 0,
     'numericCode' => 620,
   ),
+  'RHD' => 
+  array (
+    'alphabeticCode' => 'RHD',
+    'currency' => 'Rhodesian Dollar',
+    'minorUnit' => 0,
+    'numericCode' => 716,
+  ),
   'ROK' => 
   array (
     'alphabeticCode' => 'ROK',
@@ -622,68 +650,12 @@
     'minorUnit' => 0,
     'numericCode' => 946,
   ),
-  'STD' => 
+  'RUR' => 
   array (
-    'alphabeticCode' => 'STD',
-    'currency' => 'Dobra',
+    'alphabeticCode' => 'RUR',
+    'currency' => 'Russian Ruble',
     'minorUnit' => 0,
-    'numericCode' => 678,
-  ),
-  'CSD' => 
-  array (
-    'alphabeticCode' => 'CSD',
-    'currency' => 'Serbian Dinar',
-    'minorUnit' => 0,
-    'numericCode' => 891,
-  ),
-  'EUR' => 
-  array (
-    'alphabeticCode' => 'EUR',
-    'currency' => 'Euro',
-    'minorUnit' => 0,
-    'numericCode' => 978,
-  ),
-  'SKK' => 
-  array (
-    'alphabeticCode' => 'SKK',
-    'currency' => 'Slovak Koruna',
-    'minorUnit' => 0,
-    'numericCode' => 703,
-  ),
-  'SIT' => 
-  array (
-    'alphabeticCode' => 'SIT',
-    'currency' => 'Tolar',
-    'minorUnit' => 0,
-    'numericCode' => 705,
-  ),
-  'SDG' => 
-  array (
-    'alphabeticCode' => 'SDG',
-    'currency' => 'Sudanese Pound',
-    'minorUnit' => 0,
-    'numericCode' => 938,
-  ),
-  'RHD' => 
-  array (
-    'alphabeticCode' => 'RHD',
-    'currency' => 'Rhodesian Dollar',
-    'minorUnit' => 0,
-    'numericCode' => 716,
-  ),
-  'ESA' => 
-  array (
-    'alphabeticCode' => 'ESA',
-    'currency' => 'Spanish Peseta',
-    'minorUnit' => 0,
-    'numericCode' => 996,
-  ),
-  'ESB' => 
-  array (
-    'alphabeticCode' => 'ESB',
-    'currency' => '"A" Account (convertible Peseta Account)',
-    'minorUnit' => 0,
-    'numericCode' => 995,
+    'numericCode' => 810,
   ),
   'SDD' => 
   array (
@@ -692,12 +664,33 @@
     'minorUnit' => 0,
     'numericCode' => 736,
   ),
+  'SDG' => 
+  array (
+    'alphabeticCode' => 'SDG',
+    'currency' => 'Sudanese Pound',
+    'minorUnit' => 0,
+    'numericCode' => 938,
+  ),
   'SDP' => 
   array (
     'alphabeticCode' => 'SDP',
     'currency' => 'Sudanese Pound',
     'minorUnit' => 0,
     'numericCode' => 736,
+  ),
+  'SIT' => 
+  array (
+    'alphabeticCode' => 'SIT',
+    'currency' => 'Tolar',
+    'minorUnit' => 0,
+    'numericCode' => 705,
+  ),
+  'SKK' => 
+  array (
+    'alphabeticCode' => 'SKK',
+    'currency' => 'Slovak Koruna',
+    'minorUnit' => 0,
+    'numericCode' => 703,
   ),
   'SRG' => 
   array (
@@ -706,19 +699,26 @@
     'minorUnit' => 0,
     'numericCode' => 740,
   ),
+  'STD' => 
+  array (
+    'alphabeticCode' => 'STD',
+    'currency' => 'Dobra',
+    'minorUnit' => 0,
+    'numericCode' => 678,
+  ),
+  'SUR' => 
+  array (
+    'alphabeticCode' => 'SUR',
+    'currency' => 'Rouble',
+    'minorUnit' => 0,
+    'numericCode' => 810,
+  ),
   'SZL' => 
   array (
     'alphabeticCode' => 'SZL',
     'currency' => 'Lilangeni',
     'minorUnit' => 0,
     'numericCode' => 748,
-  ),
-  'CHC' => 
-  array (
-    'alphabeticCode' => 'CHC',
-    'currency' => 'WIR Franc (for electronic)',
-    'minorUnit' => 0,
-    'numericCode' => 948,
   ),
   'TJR' => 
   array (
@@ -727,12 +727,12 @@
     'minorUnit' => 0,
     'numericCode' => 762,
   ),
-  'IDR' => 
+  'TMM' => 
   array (
-    'alphabeticCode' => 'IDR',
-    'currency' => 'Rupiah',
+    'alphabeticCode' => 'TMM',
+    'currency' => 'Turkmenistan Manat',
     'minorUnit' => 0,
-    'numericCode' => 360,
+    'numericCode' => 795,
   ),
   'TPE' => 
   array (
@@ -755,12 +755,12 @@
     'minorUnit' => 0,
     'numericCode' => 949,
   ),
-  'TMM' => 
+  'UAK' => 
   array (
-    'alphabeticCode' => 'TMM',
-    'currency' => 'Turkmenistan Manat',
+    'alphabeticCode' => 'UAK',
+    'currency' => 'Karbovanet',
     'minorUnit' => 0,
-    'numericCode' => 795,
+    'numericCode' => 804,
   ),
   'UGS' => 
   array (
@@ -775,20 +775,6 @@
     'currency' => 'Old Shilling',
     'minorUnit' => 0,
     'numericCode' => 800,
-  ),
-  'UAK' => 
-  array (
-    'alphabeticCode' => 'UAK',
-    'currency' => 'Karbovanet',
-    'minorUnit' => 0,
-    'numericCode' => 804,
-  ),
-  'SUR' => 
-  array (
-    'alphabeticCode' => 'SUR',
-    'currency' => 'Rouble',
-    'minorUnit' => 0,
-    'numericCode' => 810,
   ),
   'USS' => 
   array (
@@ -832,6 +818,34 @@
     'minorUnit' => 0,
     'numericCode' => 704,
   ),
+  'XEU' => 
+  array (
+    'alphabeticCode' => 'XEU',
+    'currency' => 'European Currency Unit (E.C.U)',
+    'minorUnit' => 0,
+    'numericCode' => 954,
+  ),
+  'XFO' => 
+  array (
+    'alphabeticCode' => 'XFO',
+    'currency' => 'Gold-Franc',
+    'minorUnit' => 0,
+    'numericCode' => 0,
+  ),
+  'XFU' => 
+  array (
+    'alphabeticCode' => 'XFU',
+    'currency' => 'UIC-Franc',
+    'minorUnit' => 0,
+    'numericCode' => 0,
+  ),
+  'XRE' => 
+  array (
+    'alphabeticCode' => 'XRE',
+    'currency' => 'RINET Funds Code',
+    'minorUnit' => 0,
+    'numericCode' => 0,
+  ),
   'YDD' => 
   array (
     'alphabeticCode' => 'YDD',
@@ -860,6 +874,20 @@
     'minorUnit' => 0,
     'numericCode' => 890,
   ),
+  'ZAL' => 
+  array (
+    'alphabeticCode' => 'ZAL',
+    'currency' => 'Financial Rand',
+    'minorUnit' => 0,
+    'numericCode' => 991,
+  ),
+  'ZMK' => 
+  array (
+    'alphabeticCode' => 'ZMK',
+    'currency' => 'Zambian Kwacha',
+    'minorUnit' => 0,
+    'numericCode' => 894,
+  ),
   'ZRN' => 
   array (
     'alphabeticCode' => 'ZRN',
@@ -873,13 +901,6 @@
     'currency' => 'Zaire',
     'minorUnit' => 0,
     'numericCode' => 180,
-  ),
-  'ZMK' => 
-  array (
-    'alphabeticCode' => 'ZMK',
-    'currency' => 'Zambian Kwacha',
-    'minorUnit' => 0,
-    'numericCode' => 894,
   ),
   'ZWC' => 
   array (
@@ -908,26 +929,5 @@
     'currency' => 'Zimbabwe Dollar',
     'minorUnit' => 0,
     'numericCode' => 935,
-  ),
-  'XFO' => 
-  array (
-    'alphabeticCode' => 'XFO',
-    'currency' => 'Gold-Franc',
-    'minorUnit' => 0,
-    'numericCode' => 0,
-  ),
-  'XRE' => 
-  array (
-    'alphabeticCode' => 'XRE',
-    'currency' => 'RINET Funds Code',
-    'minorUnit' => 0,
-    'numericCode' => 0,
-  ),
-  'XFU' => 
-  array (
-    'alphabeticCode' => 'XFU',
-    'currency' => 'UIC-Franc',
-    'minorUnit' => 0,
-    'numericCode' => 0,
   ),
 );
