@@ -801,7 +801,7 @@
   array (
     'alphabeticCode' => 'HRK',
     'currency' => 'Kuna',
-    'minorUnit' => 2,
+    'minorUnit' => 0,
     'numericCode' => 191,
   ),
   'HTG' => 
@@ -1539,6 +1539,13 @@
     'minorUnit' => 0,
     'numericCode' => 703,
   ),
+  'SLE' => 
+  array (
+    'alphabeticCode' => 'SLE',
+    'currency' => 'Leone',
+    'minorUnit' => 2,
+    'numericCode' => 925,
+  ),
   'SLL' => 
   array (
     'alphabeticCode' => 'SLL',
@@ -1811,6 +1818,13 @@
     'currency' => 'Bolivar',
     'minorUnit' => 0,
     'numericCode' => 862,
+  ),
+  'VED' => 
+  array (
+    'alphabeticCode' => 'VED',
+    'currency' => 'Bolívar Soberano',
+    'minorUnit' => 2,
+    'numericCode' => 926,
   ),
   'VEF' => 
   array (

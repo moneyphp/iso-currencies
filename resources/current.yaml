@@ -303,11 +303,6 @@ HNL:
     currency: Lempira
     minorUnit: 2
     numericCode: 340
-HRK:
-    alphabeticCode: HRK
-    currency: Kuna
-    minorUnit: 2
-    numericCode: 191
 HTG:
     alphabeticCode: HTG
     currency: Gourde
@@ -643,6 +638,11 @@ SHP:
     currency: 'Saint Helena Pound'
     minorUnit: 2
     numericCode: 654
+SLE:
+    alphabeticCode: SLE
+    currency: Leone
+    minorUnit: 2
+    numericCode: 925
 SLL:
     alphabeticCode: SLL
     currency: Leone
@@ -768,6 +768,11 @@ UZS:
     currency: 'Uzbekistan Sum'
     minorUnit: 2
     numericCode: 860
+VED:
+    alphabeticCode: VED
+    currency: 'Bolívar Soberano'
+    minorUnit: 2
+    numericCode: 926
 VES:
     alphabeticCode: VES
     currency: 'Bolívar Soberano'

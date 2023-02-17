@@ -275,7 +275,7 @@ HRD:
     numericCode: 191
 HRK:
     alphabeticCode: HRK
-    currency: 'Croatian Kuna'
+    currency: Kuna
     minorUnit: 0
     numericCode: 191
 IDR:

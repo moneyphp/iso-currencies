@@ -387,7 +387,7 @@
   'HRK' => 
   array (
     'alphabeticCode' => 'HRK',
-    'currency' => 'Croatian Kuna',
+    'currency' => 'Kuna',
     'minorUnit' => 0,
     'numericCode' => 191,
   ),

@@ -426,13 +426,6 @@
     'minorUnit' => 2,
     'numericCode' => 340,
   ),
-  'HRK' => 
-  array (
-    'alphabeticCode' => 'HRK',
-    'currency' => 'Kuna',
-    'minorUnit' => 2,
-    'numericCode' => 191,
-  ),
   'HTG' => 
   array (
     'alphabeticCode' => 'HTG',
@@ -902,6 +895,13 @@
     'minorUnit' => 2,
     'numericCode' => 654,
   ),
+  'SLE' => 
+  array (
+    'alphabeticCode' => 'SLE',
+    'currency' => 'Leone',
+    'minorUnit' => 2,
+    'numericCode' => 925,
+  ),
   'SLL' => 
   array (
     'alphabeticCode' => 'SLL',
@@ -1076,6 +1076,13 @@
     'currency' => 'Uzbekistan Sum',
     'minorUnit' => 2,
     'numericCode' => 860,
+  ),
+  'VED' => 
+  array (
+    'alphabeticCode' => 'VED',
+    'currency' => 'Bolívar Soberano',
+    'minorUnit' => 2,
+    'numericCode' => 926,
   ),
   'VES' => 
   array (

@@ -571,7 +571,7 @@ HRD:
 HRK:
     alphabeticCode: HRK
     currency: Kuna
-    minorUnit: 2
+    minorUnit: 0
     numericCode: 191
 HTG:
     alphabeticCode: HTG
@@ -1098,6 +1098,11 @@ SKK:
     currency: 'Slovak Koruna'
     minorUnit: 0
     numericCode: 703
+SLE:
+    alphabeticCode: SLE
+    currency: Leone
+    minorUnit: 2
+    numericCode: 925
 SLL:
     alphabeticCode: SLL
     currency: Leone
@@ -1293,6 +1298,11 @@ VEB:
     currency: Bolivar
     minorUnit: 0
     numericCode: 862
+VED:
+    alphabeticCode: VED
+    currency: 'Bolívar Soberano'
+    minorUnit: 2
+    numericCode: 926
 VEF:
     alphabeticCode: VEF
     currency: Bolívar

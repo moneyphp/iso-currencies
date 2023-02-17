@@ -7,8 +7,8 @@ use MoneyPHP\IsoCurrencies\Serializer\YamlSerializer;
 require_once __DIR__ . "/../vendor/autoload.php";
 
 $fetcher = new Fetcher(
-    'https://www.currency-iso.org/dam/downloads/lists/list_one.xml',
-    'https://www.currency-iso.org/dam/downloads/lists/list_three.xml'
+    'https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml',
+    'https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-three.xml'
 );
 
 $fetcher->saveCurrentCountriesTo(__DIR__ . "/../resources/current.php", new PhpExportSerializer());
