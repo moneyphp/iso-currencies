@@ -9,7 +9,7 @@ use Symfony\Component\Yaml\Yaml;
 final class YamlSerializer implements Serializer
 {
     /**
-     * @param array|Country[] $countries
+     * @param array<int|string, Country> $countries
      */
     public function serialize(array $countries): string
     {

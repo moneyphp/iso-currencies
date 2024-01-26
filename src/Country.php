@@ -4,12 +4,12 @@ namespace MoneyPHP\IsoCurrencies;
 final class Country
 {
     public function __construct(
-                                private readonly string $entity,
-                                private readonly string $currency,
-                                private readonly string $alphabeticCode,
-                                private readonly int $numericCode,
-                                private readonly int $minorUnit)
-    {
+        private readonly string $entity,
+        private readonly string $currency,
+        private readonly string $alphabeticCode,
+        private readonly int $numericCode,
+        private readonly int $minorUnit
+    ) {
     }
 
     public function getAlphabeticCode(): string

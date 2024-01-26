@@ -7,7 +7,7 @@ use MoneyPHP\IsoCurrencies\Serializer;
 final class PhpExportSerializer implements Serializer
 {
     /**
-     * @param array|Country[] $countries
+     * @param array<int|string, Country> $countries
      */
     public function serialize(array $countries): string
     {

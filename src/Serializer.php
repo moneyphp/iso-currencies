@@ -4,7 +4,7 @@ namespace MoneyPHP\IsoCurrencies;
 interface Serializer
 {
     /**
-     * @param Country[] $countries
+     * @param array<int|string, Country> $countries
      */
     public function serialize(array $countries): string;
 }

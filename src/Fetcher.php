@@ -4,19 +4,19 @@ namespace MoneyPHP\IsoCurrencies;
 final class Fetcher
 {
     /**
-     * @var null|array|Country[]
+     * @var array<int, Country>
      */
     private ?array $currentCountries = null;
 
     /**
-     * @var null|array|Country[]
+     * @var array<int, Country>
      */
     private ?array $historicCountries = null;
 
     public function __construct(
-                                private readonly string $currentLocation,
-                                private readonly string $historicLocation)
-    {
+        private readonly string $currentLocation,
+        private readonly string $historicLocation
+    ) {
     }
 
     /**

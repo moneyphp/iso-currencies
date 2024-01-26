@@ -7,7 +7,7 @@ use MoneyPHP\IsoCurrencies\Serializer;
 final class JsonSerializer implements Serializer
 {
     /**
-     * @param array|Country[] $countries
+     * @param array<int|string, Country> $countries
      * @throws \JsonException
      */
     public function serialize(array $countries): string
