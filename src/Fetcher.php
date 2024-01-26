@@ -1,47 +1,27 @@
 <?php
 namespace MoneyPHP\IsoCurrencies;
 
-/**
- * Class Fetcher
- * @package MoneyPHP\IsoCurrencies
- */
 final class Fetcher
 {
     /**
-     * @var string
+     * @var null|array|Country[]
      */
-    private $currentLocation;
-
-    /**
-     * @var string
-     */
-    private $historicLocation;
+    private ?array $currentCountries = null;
 
     /**
      * @var null|array|Country[]
      */
-    private $currentCountries;
+    private ?array $historicCountries = null;
 
-    /**
-     * @var null|array|Country[]
-     */
-    private $historicCountries;
-
-    /**
-     * @param string $currentLocation
-     * @param string $historicLocation
-     */
-    public function __construct($currentLocation, $historicLocation)
+    public function __construct(private readonly string $currentLocation,
+                                private readonly string $historicLocation)
     {
-        $this->currentLocation = $currentLocation;
-        $this->historicLocation = $historicLocation;
     }
 
     /**
-     * @param string $fileName
-     * @param Serializer $serializer
+     * @throws \Exception
      */
-    public function saveCurrentCountriesTo($fileName, Serializer $serializer)
+    public function saveCurrentCountriesTo(string $fileName, Serializer $serializer): void
     {
         $this->fetch();
 
@@ -52,10 +32,9 @@ final class Fetcher
     }
 
     /**
-     * @param string $fileName
-     * @param Serializer $serializer
+     * @throws \Exception
      */
-    public function saveHistoricCountriesTo($fileName, Serializer $serializer)
+    public function saveHistoricCountriesTo(string $fileName, Serializer $serializer): void
     {
         $this->fetch();
 
@@ -66,10 +45,9 @@ final class Fetcher
     }
 
     /**
-     * @param string $fileName
-     * @param Serializer $serializer
+     * @throws \Exception
      */
-    public function saveAllCountriesTo($fileName, Serializer $serializer)
+    public function saveAllCountriesTo(string $fileName, Serializer $serializer): void
     {
         $this->fetch();
 
@@ -79,13 +57,19 @@ final class Fetcher
         );
     }
 
-    private function fetch()
+    /**
+     * @throws \Exception
+     */
+    private function fetch(): void
     {
         $this->fetchCurrentCountries();
         $this->fetchHistoricCountries();
     }
 
-    private function fetchCurrentCountries()
+    /**
+     * @throws \Exception
+     */
+    private function fetchCurrentCountries(): void
     {
         if ($this->currentCountries === null) {
             $this->currentCountries = [];
@@ -107,7 +91,10 @@ final class Fetcher
         }
     }
 
-    private function fetchHistoricCountries()
+    /**
+     * @throws \Exception
+     */
+    private function fetchHistoricCountries(): void
     {
         if ($this->historicCountries === null) {
             $this->historicCountries = [];

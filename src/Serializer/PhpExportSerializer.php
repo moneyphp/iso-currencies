@@ -8,9 +8,8 @@ final class PhpExportSerializer implements Serializer
 {
     /**
      * @param array|Country[] $countries
-     * @return string
      */
-    public function serialize(array $countries)
+    public function serialize(array $countries): string
     {
         $serialized = [];
         foreach ($countries as $country) {

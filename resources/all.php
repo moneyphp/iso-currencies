@@ -1550,7 +1550,7 @@
   array (
     'alphabeticCode' => 'SLL',
     'currency' => 'Leone',
-    'minorUnit' => 2,
+    'minorUnit' => 0,
     'numericCode' => 694,
   ),
   'SOS' => 

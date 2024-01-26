@@ -1,85 +1,37 @@
 <?php
 namespace MoneyPHP\IsoCurrencies;
 
-/**
- * Class Country
- * @package MoneyPHP\IsoCurrencies
- */
 final class Country
 {
-    /**
-     * @var string
-     */
-    private $alphabeticCode;
-    /**
-     * @var string
-     */
-    private $currency;
-    /**
-     * @var string
-     */
-    private $entity;
-    /**
-     * @var int
-     */
-    private $minorUnit;
-    /**
-     * @var int
-     */
-    private $numericCode;
-
-    /**
-     * @param string $entity
-     * @param string $currency
-     * @param string $alphabeticCode
-     * @param int $numericCode
-     * @param int $minorUnit
-     */
-    public function __construct($entity, $currency, $alphabeticCode, $numericCode, $minorUnit)
+    public function __construct(private readonly string $entity,
+                                private readonly string $currency,
+                                private readonly string $alphabeticCode,
+                                private readonly int    $numericCode,
+                                private readonly int    $minorUnit)
     {
-        $this->alphabeticCode = $alphabeticCode;
-        $this->currency = $currency;
-        $this->entity = $entity;
-        $this->minorUnit = $minorUnit;
-        $this->numericCode = $numericCode;
     }
 
-    /**
-     * @return string
-     */
-    public function getAlphabeticCode()
+    public function getAlphabeticCode(): string
     {
         return $this->alphabeticCode;
     }
 
-    /**
-     * @return string
-     */
-    public function getCurrency()
+    public function getCurrency(): string
     {
         return $this->currency;
     }
 
-    /**
-     * @return string
-     */
-    public function getEntity()
+    public function getEntity(): string
     {
         return $this->entity;
     }
 
-    /**
-     * @return int
-     */
-    public function getMinorUnit()
+    public function getMinorUnit(): int
     {
         return $this->minorUnit;
     }
 
-    /**
-     * @return int
-     */
-    public function getNumericCode()
+    public function getNumericCode(): int
     {
         return $this->numericCode;
     }

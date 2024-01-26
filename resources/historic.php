@@ -692,6 +692,13 @@
     'minorUnit' => 0,
     'numericCode' => 703,
   ),
+  'SLL' => 
+  array (
+    'alphabeticCode' => 'SLL',
+    'currency' => 'Leone',
+    'minorUnit' => 0,
+    'numericCode' => 694,
+  ),
   'SRG' => 
   array (
     'alphabeticCode' => 'SRG',
