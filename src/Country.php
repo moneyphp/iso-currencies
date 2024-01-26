@@ -3,7 +3,8 @@ namespace MoneyPHP\IsoCurrencies;
 
 final class Country
 {
-    public function __construct(private readonly string $entity,
+    public function __construct(
+                                private readonly string $entity,
                                 private readonly string $currency,
                                 private readonly string $alphabeticCode,
                                 private readonly int $numericCode,

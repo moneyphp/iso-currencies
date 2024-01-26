@@ -13,7 +13,8 @@ final class Fetcher
      */
     private ?array $historicCountries = null;
 
-    public function __construct(private readonly string $currentLocation,
+    public function __construct(
+                                private readonly string $currentLocation,
                                 private readonly string $historicLocation)
     {
     }
