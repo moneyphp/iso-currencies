@@ -8,9 +8,9 @@ final class JsonSerializer implements Serializer
 {
     /**
      * @param array|Country[] $countries
-     * @return string
+     * @throws \JsonException
      */
-    public function serialize(array $countries)
+    public function serialize(array $countries): string
     {
         $serialized = [];
         foreach ($countries as $country) {
@@ -27,6 +27,6 @@ final class JsonSerializer implements Serializer
 
         \ksort($serialized);
 
-        return json_encode($serialized);
+        return json_encode($serialized, JSON_THROW_ON_ERROR);
     }
 }

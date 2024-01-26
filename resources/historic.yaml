@@ -493,6 +493,11 @@ SKK:
     currency: 'Slovak Koruna'
     minorUnit: 0
     numericCode: 703
+SLL:
+    alphabeticCode: SLL
+    currency: Leone
+    minorUnit: 0
+    numericCode: 694
 SRG:
     alphabeticCode: SRG
     currency: 'Surinam Guilder'
