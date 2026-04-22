@@ -83,13 +83,6 @@
     'minorUnit' => 2,
     'numericCode' => 50,
   ),
-  'BGN' => 
-  array (
-    'alphabeticCode' => 'BGN',
-    'currency' => 'Bulgarian Lev',
-    'minorUnit' => 2,
-    'numericCode' => 975,
-  ),
   'BHD' => 
   array (
     'alphabeticCode' => 'BHD',
