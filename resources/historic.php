@@ -139,6 +139,13 @@
     'minorUnit' => 0,
     'numericCode' => 100,
   ),
+  'BGN' => 
+  array (
+    'alphabeticCode' => 'BGN',
+    'currency' => 'Bulgarian Lev',
+    'minorUnit' => 0,
+    'numericCode' => 975,
+  ),
   'BOP' => 
   array (
     'alphabeticCode' => 'BOP',

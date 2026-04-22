@@ -98,6 +98,11 @@ BGL:
     currency: Lev
     minorUnit: 0
     numericCode: 100
+BGN:
+    alphabeticCode: BGN
+    currency: 'Bulgarian Lev'
+    minorUnit: 0
+    numericCode: 975
 BOP:
     alphabeticCode: BOP
     currency: 'Peso boliviano'

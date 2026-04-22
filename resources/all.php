@@ -227,7 +227,7 @@
   array (
     'alphabeticCode' => 'BGN',
     'currency' => 'Bulgarian Lev',
-    'minorUnit' => 2,
+    'minorUnit' => 0,
     'numericCode' => 975,
   ),
   'BHD' => 
